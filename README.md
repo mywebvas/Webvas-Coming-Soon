@@ -6,7 +6,10 @@ Best fit: pre-launch websites, maintenance windows, soft launches, stakeholder p
 
 
 
+
+
 What problem it solves:
+
 
 Hides unfinished work from visitors while trusted admins still access the real site.
 
@@ -18,7 +21,11 @@ Stays reliable on shared hosting, common cache layers, and mixed server environm
 
 
 
+
+
+
 What it does:
+
 
 Coming Soon and Maintenance modes with appropriate HTTP behavior.
 
