@@ -1,8 +1,8 @@
-﻿<?php
+<?php
 /*
 Plugin Name: Webvas Coming Soon Ultra-Tiny
 Description: High-converting coming soon and maintenance mode with waitlist capture, private preview links, honest visitor counts, CSV export, and zero builder bloat.
-Version: 2.4.1
+Version: 2.4.2
 Author: Webvas
 Author URI: https://mywebvas.com/coming-soon
 License: GPL2
@@ -18,7 +18,7 @@ if (!defined('ABSPATH')) {
 }
 
 final class Webvas_Coming_Soon_Ultra_Tiny {
-    private const VERSION = '2.4.1';
+    private const VERSION = '2.4.2';
     private const ADMIN_CAPABILITY = 'activate_plugins';
     private const OPTION_ENABLED = 'wvcsn_enabled';
     private const OPTION_MODE = 'wvcsn_mode';

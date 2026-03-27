@@ -4,7 +4,7 @@ Tags: coming soon, maintenance mode, waitlist, lead capture, launch page, lightw
 Requires at least: 5.0
 Tested up to: 6.9.4
 Requires PHP: 8.0
-Stable tag: 2.4.1
+Stable tag: 2.4.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,11 @@ The plugin removes its settings, custom frontend copy, admin audit log, temporar
 3. Dashboard widget with quick status and waitlist entry count.
 
 == Changelog ==
+
+= 2.4.2 =
+
+* Removed a UTF-8 byte-order mark from the main plugin file so header output stays fully safe on real WordPress installs.
+* Published the same release snapshot as a clean Git-ready and WordPress-safe hotfix tag.
 
 = 2.4.1 =
 
@@ -190,6 +195,10 @@ The plugin removes its settings, custom frontend copy, admin audit log, temporar
 * Improved no-cache behavior and export availability handling.
 
 == Upgrade Notice ==
+
+= 2.4.2 =
+
+Recommended as the clean first public tag. Removes a UTF-8 BOM from the main plugin file so header behavior stays predictable.
 
 = 2.4.0 =
 
